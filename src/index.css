@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap')
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.border-nav {
+    border: 1px solid rgb(241, 202, 208);
+    padding: 8px 12px;
+}
+
+.navbar-container {
+    background-color: rgb(4, 4, 99);
+    width: 100vw;
+}
+
+.form-container {
+    border: 1px solid pink;
+    background-color: aliceblue;
+}
+
+.button-contaier {
+    border: 2px solid pink;
+}
+
+.border-top-right{
+    border: 2px solid pink;
+    border-bottom: none;
+    border-top-left-radius: 6px;
+}
+.border-bottom-right{
+    border-bottom: 2px solid pink;
+    border-right: 2px solid pink;
+}
+.border-top-left {
+    border: 2px solid pink;
+    border-bottom: none;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.border-bottom {
+    border-bottom: 2px solid pink;
+}
+
+/* bordar radious */
+.top-left-radius {
+    border-top-left-radius: 6px;
+}
+.bottom-right-radius {
+    border-bottom-right-radius: 6px;
+}
+
+/* log In form */
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
